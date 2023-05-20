@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("GIT checkout")
         {
-            
+            git 'https://github.com/routsandeepkumar/myweb'
         }
           
     }
